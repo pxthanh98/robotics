@@ -55,12 +55,12 @@ pip install keyboard
 
 ### Compiling
 1) For object decection:
-* Step 1:
+* Step 1
 ```
 cd 'challenge 1'
 python main.py
 ```
-* Step 2:
+* Step 2
 ```
 Using keyboard for navigation in ai2thor
  'w': Move ahead
@@ -73,16 +73,16 @@ Using keyboard for navigation in ai2thor
  'k': Look up 30 degree
  'esc': Escape
 ```
-* Step 3:
-Press 'c' to get an image and prediction. Preidction will be written under the image```prediction.jpg```
+* Step 3
+Press 'c' to get an image and prediction. Preidction will be written to the image```prediction.jpg```
 
 2) For trajectory:
-Step 1:
+* Step 1
 ```
 cd 'challenge 2'
 python trajectory.py
 ```
-Step 2:
+* Step 2
 ```
 Using keyboard for navigation in ai2thor
 'up arrow': Move ahead
