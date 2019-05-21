@@ -1,14 +1,22 @@
 # Robotics
 
-Object dection and robot trajectory using YOLOv3, Opencv and Ai2thor
+Object dection using YOLOv3, Opencv and robot trajectory  in a virtual environment Ai2thor
 
 ## Getting Started
 
-You can get this project using 
+Get this project using 
 ```
 git clone: https://github.com/pxthanh98/robotics.git
 ```
 ### Requirements
+System
+```
+  *  OS: Mac OS X 10.9+, Ubuntu 14.04+
+  *  Graphics Card: DX9 (shader model 3.0) or DX11 with feature level 9.3 capabilities.
+  *  CPU: SSE2 instruction set support.
+  *  Python 3.5+
+  *  Linux: X server with GLX module enabled
+```
 
 pip requirements:
 ```
@@ -38,6 +46,49 @@ pip install matplotlib
 pip install pynput
 ```
 
+```
+pip install keyboard
+```
+
+### Compiling
+1) For object decection
+ Step 1:
+```
+cd 'challenge 1'
+python main.py
+```
+Step 2:
+Using keyboard for navigation in ai2thor
+'w': Move ahead
+'s': Move back
+'a': Move to the left
+'d': Move to the right
+'h': Turn left 90 degree
+'l': Turn right 90 degree
+'j': Look down 30 degree
+'k': Look up 30 degree
+'esc': Escape
+
+Step 3:
+Press 'c' to get an image and prediction. Preidction will be written under the image```prediction.jpg```
+
+2) For trajectory:
+Step 1:
+```
+cd 'challenge 2'
+python trajectory.py
+```
+Step 2:
+Using keyboard for navigation in ai2thor
+'up arrow': Move ahead
+'down arrow': Move back
+'left arrow': Move to the left
+'right arrow': Move to the right
+'h': Turn left 90 degree
+'l': Turn right 90 degree
+'j': Look down 30 degree
+'k': Look up 30 degree
+'esc': Escape
 
 ## Acknowledgments
 
