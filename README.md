@@ -79,7 +79,7 @@ Press 'c' to get an image and prediction. Preidction will be written to the imag
 * Step 1
 ```
 cd 'challenge 2'
-python trajectory.py
+sudo python trajectory.py
 ```
 * Step 2
 ```
