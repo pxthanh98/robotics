@@ -51,8 +51,8 @@ pip install keyboard
 ```
 
 ### Compiling
-1) For object decection
- Step 1:
+1) For object decection:
+Step 1:
 ```
 cd 'challenge 1'
 python main.py
