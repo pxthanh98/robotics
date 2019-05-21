@@ -55,12 +55,13 @@ pip install keyboard
 
 ### Compiling
 1) For object decection:
-Step 1:
+* Step 1:
 ```
 cd 'challenge 1'
 python main.py
 ```
-Step 2:
+* Step 2:
+```
 Using keyboard for navigation in ai2thor
  'w': Move ahead
  's': Move back
@@ -71,8 +72,8 @@ Using keyboard for navigation in ai2thor
  'j': Look down 30 degree
  'k': Look up 30 degree
  'esc': Escape
-
-Step 3:
+```
+* Step 3:
 Press 'c' to get an image and prediction. Preidction will be written under the image```prediction.jpg```
 
 2) For trajectory:
@@ -82,6 +83,7 @@ cd 'challenge 2'
 python trajectory.py
 ```
 Step 2:
+```
 Using keyboard for navigation in ai2thor
 'up arrow': Move ahead
 'down arrow': Move back
@@ -92,7 +94,7 @@ Using keyboard for navigation in ai2thor
 'j': Look down 30 degree
 'k': Look up 30 degree
 'esc': Escape
-
+```
 ## Acknowledgments
 
 * https://towardsdatascience.com/yolo-object-detection-with-opencv-and-python-21e50ac599e9
