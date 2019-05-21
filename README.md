@@ -32,20 +32,23 @@ numpy
 
 ### Installing
 
-
+Ai2thor
 ```
 pip install ai2thor
 ```
+Opencv
 ```
 pip install opencv
 ```
+Matplotlib
 ```
 pip install matplotlib
 ```
+Pynput
 ```
 pip install pynput
 ```
-
+Keyboard
 ```
 pip install keyboard
 ```
@@ -59,15 +62,15 @@ python main.py
 ```
 Step 2:
 Using keyboard for navigation in ai2thor
-'w': Move ahead
-'s': Move back
-'a': Move to the left
-'d': Move to the right
-'h': Turn left 90 degree
-'l': Turn right 90 degree
-'j': Look down 30 degree
-'k': Look up 30 degree
-'esc': Escape
+ 'w': Move ahead
+ 's': Move back
+ 'a': Move to the left
+ 'd': Move to the right
+ 'h': Turn left 90 degree
+ 'l': Turn right 90 degree
+ 'j': Look down 30 degree
+ 'k': Look up 30 degree
+ 'esc': Escape
 
 Step 3:
 Press 'c' to get an image and prediction. Preidction will be written under the image```prediction.jpg```
