@@ -55,11 +55,16 @@ pip install keyboard
 ### Compiling
 1) For object decection:
 * Step 1
+Download the weights file into folder 'challenge 1' and unzip it
+```
+https://drive.google.com/file/d/1nks4PxeFBiiSZP-KQCi9U0WPRt_Gk6Ut/view?usp=sharing
+```
+* Step 2
 ```
 cd 'challenge 1'
 python main.py
 ```
-* Step 2
+* Step 3
 ```
 Using keyboard for navigation in ai2thor
  'w': Move ahead
@@ -72,7 +77,7 @@ Using keyboard for navigation in ai2thor
  'k': Look up 30 degree
  'esc': Escape
 ```
-* Step 3
+* Step 4
 Press 'c' to get an image and prediction. Preidction will be written to the image```prediction.jpg```
 
 2) For trajectory:
