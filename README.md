@@ -1,6 +1,6 @@
 # Robotics
 
-Object dection using YOLOv3, Opencv and robot trajectory  in a virtual environment Ai2thor
+Object dection using YOLOv3, OpenCV and robot trajectory  in a virtual environment Ai2thor
 
 ## Getting Started
 
@@ -10,13 +10,12 @@ git clone: https://github.com/pxthanh98/robotics.git
 ```
 ### Requirements
 System
-```
   *  OS: Mac OS X 10.9+, Ubuntu 14.04+
   *  Graphics Card: DX9 (shader model 3.0) or DX11 with feature level 9.3 capabilities.
   *  CPU: SSE2 instruction set support.
   *  Python 3.5+
   *  Linux: X server with GLX module enabled
-```
+
 
 pip requirements:
 ```
@@ -36,7 +35,7 @@ Ai2thor
 ```
 pip install ai2thor
 ```
-Opencv
+OpenCV
 ```
 pip install opencv
 ```
